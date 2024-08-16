@@ -8,8 +8,8 @@
 	<script>
 		const config = {
 			title: 'files.auspatious.com', // prefix value with `HTML> ` to render as html, see subtitle
-			logo: 'https://qoomon.github.io/aws-s3-bucket-browser/logo.png',
-			favicon: 'https://qoomon.github.io/aws-s3-bucket-browser/favicon.ico',
+			logo: 'https://auspatious.com/assets/img/auspatious-box.svg',
+			favicon: 'https://auspatious.com/assets/favicon.ico',
 			primaryColor: '#167df0',
 			allowDownloadAll: false, // enable or disable 'download all' button to download all files as a zip archive
 
@@ -30,7 +30,7 @@
 			keyExcludePatterns: [/^index\.html$/], // matches againt object key relative to rootPrefix
 			pageSize: 50,
 
-			bucketMaskUrl: undefined,
+			bucketMaskUrl: "https://files.auspatious.com",
 			// If bucketMaskUrl is set, file urls will be changed from ${bucketUrl}/${file} to ${bucketMaskUrl}/${file}
 			//   bucketMaskUrl: 'https://example.org'
 			//     => https://example.org/foo/bar.txt
